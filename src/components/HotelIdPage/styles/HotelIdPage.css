@@ -1,0 +1,22 @@
+.hotel__header{
+    text-align: center;
+}
+
+.hotel__section-galery{
+    display: flex;
+    justify-content: center;
+    gap:7em ;
+    justify-content: center;
+}
+
+
+.hotel__img{
+    width: 100%;
+    max-width: 25em;
+    margin-bottom: 1em;
+}
+
+.hotel__map{
+    width: 100%;
+    max-width: 25em;
+}

@@ -1,0 +1,11 @@
+.rate__coment{
+    color: blue;
+    cursor: pointer;
+    &{
+        text-decoration: underline;
+    }
+}
+
+/* .img__reservatio{
+
+} */

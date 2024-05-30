@@ -1,0 +1,66 @@
+.register__container{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.register__form{
+    width: 100%;
+    max-width: 25em;
+    min-width: 5em;
+    border: 1px solid #c1bfbf;
+    border-radius: 2em;
+}
+
+.register__title{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.8em;
+    color: #FA4040;
+}
+
+.register__hr{
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.register__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register__label{
+    display: flex;
+    flex-direction: column;
+    gap: .4em;
+    width: 80%;
+    padding-bottom: 0.8em;
+    font-size: 0.95em;
+}
+
+.register__span{
+    padding-left: 1em;
+}
+
+.register__input{
+    border: 1px solid #c1bfbf;
+    padding: 0.55em;
+}
+
+.register__btn{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.register__btn-submit{
+    background-color: #E13A3A;
+    color: aliceblue;
+    width: 80%;
+    padding: 0.9em;
+    margin: 2em;
+    &:hover{
+        background-color: #E03A3A;
+    }
+}
